@@ -1,0 +1,572 @@
+/* @media (max-width:767) {
+    header .navbar .side-menu .contacts{
+        display: flex;
+        justify-content: center;
+    }
+} */
+
+@media (min-width:755px) {
+    main .experience .row .column-1 p{
+        width: 625px;
+    }
+    
+}
+@media (min-width:755px) {
+    main .experience .row .column-1 .p-heading{
+        width: 728px;
+    }
+    
+}
+@media (min-width:755px) {
+    main .experience .row .column-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+/* @media (min-width:1200px) {
+    header .navbar{
+        gap: 300px;
+    }
+} */
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} */
+
+header .navbar{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+/* width: 1440px; */
+/* gap: 300px */
+/* max-width: 1440px; */
+;
+
+}
+header .navbar .logo img{
+width: 220px;
+margin-top:  5px; ;
+margin-bottom: 5px;
+}
+
+/* header .navbar .side-menu{
+    display: flex;
+    flex-direction:column ;
+    
+} */
+
+
+header .navbar .side-menu .contacts{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-bottom: 0px;
+}    
+header .navbar .side-menu .contacts .phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .navbar .side-menu .contacts .phone .phone-logo{
+        background-color: #B08633;
+        height: 35px;
+        width: 35px;
+        border-radius: 6px;
+    }
+    header .navbar .side-menu .contacts .phone .phone-logo img{
+        width: 20px;
+        padding: 8px;
+    }
+    header .navbar .side-menu .contacts .phone .number{
+        font-family:'Poppins', sans-serif; 
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    header .navbar .side-menu .contacts .email{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    header .navbar .side-menu .contacts .email .email-logo{
+        background-color: #B08633;
+        height: 35px;
+        width: 35px;
+        border-radius: 6px;
+    }
+    header .navbar .side-menu .contacts .email .email-logo img{
+        width: 20px;
+        padding:8px ;
+    }
+    header .navbar .side-menu .contacts .email .gmail{
+       font-family:'Poppins', sans-serif; 
+       font-weight: 600;
+       font-size: 14px;
+       line-height: 21px;
+    }
+    
+    header .navbar .side-menu .menu{
+     margin-top: 0px;   
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+@media (max-width:767px){
+    .menu{
+        display: none;
+    }
+
+    input:checked+label+.menu{
+display: block;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+        width: 100%;
+        height: 100%    ;
+        background-color: white;
+        top: 0;
+        left: 0;
+        position: absolute;
+        /* z-index: 999; */
+        /* position: sticky; */
+    }
+    .close-menu{
+        display: none;
+    }
+    input:checked+.contacts{
+        display: none;
+    }
+
+
+    input:checked+label .open-menu{
+display: none;
+    }
+    input:checked+label .close-menu{
+/* display: flex; */
+    }
+    label svg{
+        width: 26px;
+        height: auto;
+    }
+    input{
+        opacity: -1;
+    }
+    .label{
+        display: flex;
+        justify-content: end;
+    }
+    .navbar .logo{
+        /* display: none; */
+    }
+    .side-logo{
+        width: 85px;
+        height: 40px;
+    }
+    .side-logo img{
+width: 85px;
+    }
+    .navbar .side-menu .contacts{
+        /* display: none; */
+    }
+    .navbar .side-menu{
+        display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+    }
+}
+
+
+
+
+@media (min-width:767px){
+    input:checked+label .close-menu{
+        display: none;
+            }
+    input:checked+label .open-menu{
+        display: none;
+            }
+            input{
+             display: none;
+            }
+            label svg{
+display: none;
+            }
+            .side-logo{
+                display: none;
+            }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    header .navbar .side-menu .menu ul{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    header .navbar .side-menu .menu ul li{
+        list-style: none;
+    }
+    header .navbar .side-menu .menu ul li a{
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'poppins', sans-serif;
+        line-height: 21px;
+    }
+    header .navbar .side-menu .menu ul li a:hover{
+       color: #B08633;
+    }
+
+
+    /* Cover section */
+
+    /* main{
+        width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    } */
+
+    main  .cover{
+        background: url("img/cover.png") no-repeat center center;
+        height: 455px;
+        /* background-size: 1440px        ; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 15px; */
+    }
+    main  .cover .heading{
+text-align: center;
+    }
+    main  .cover .heading .p-1{
+font-family:'nova round',sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 32px;
+color: white;
+margin-bottom: 0px;
+    }
+    main  .cover .heading .p-2{
+font-family: 'nova round', sans-serif;
+color: white;
+font-size: 80px;
+line-height: 80px;
+margin-top: 15px;
+margin-bottom: 15px;
+    }
+
+    /* .cover .heading .btn{
+background-color: black;
+color: #D8BA59;
+width: 176px;
+height: 54px;
+top: 378px;
+left: 614px;
+border-radius: 100px;
+
+    } */
+
+    main .cover .heading button{
+        background-color: black;
+        width: 176px;
+        height: 54px;
+        border: 0px;
+        border-radius: 100px;
+        margin-top: 0px;
+    }
+
+    main .cover .heading button p{
+color: #B08633;
+font-family: 'poppins', sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+margin: 0px;
+    }
+
+
+    /* Experience section */
+    
+    .experience{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+/* margin-top: 25px; */
+    }
+    main .experience .row{
+
+    }
+    main .experience .row .column-1{
+text-align: center;
+margin-top: 35px;
+    }
+    main .experience .row .column-1 .p-heading{
+color: #D8BA59;
+font-size: 48px;
+font-family: 'poppins',sans-serif;
+margin-bottom: 0px;
+
+    }
+    main .experience .row .column-1 p{
+        font-family: 'poppins',sans-serif;
+color: #303030;
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 0px;
+    }
+    main .experience .row .column-2{
+        display: flex;  
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    main .experience .row .column-2 .box{
+text-align: center;
+
+    }
+    main .experience .row .column-2 .box .one{
+font-family: 'poppins', sans-serif;
+font-size: 96px;
+font-weight: bold;
+margin-bottom: 0px;
+margin-top: 15px;
+    }
+    main .experience .row .column-2 .box .two{
+font-family: 'poppins', sans-serif;
+color: #B08633;
+font-size: 48px;
+margin-bottom: 0px;
+margin-top: -33px;
+    }
+    main .experience .row .column-2 .box .three{
+font-family: 'poppins', sans-serif;
+font-size: 18px;
+margin-top: -7px;
+    }
+
+
+
+
+
+    /* Our Serives */
+
+    .experience+.our-services+.about-us{
+        background-color: red;
+    }
+
+.our-services{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.our-services .col-1{
+
+}
+.our-services .col-1 .p-heading{
+font-family: 'poppins',sans-serif;
+font-size: 36px;
+line-height: 54px;
+font-weight: 500;
+color: #B08633;
+text-align: center;
+}
+
+.our-services .col-2{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.our-services .col-2 .garden{
+    background: url("/img/garden\ maintenance.png") no-repeat center center/cover;
+    width: 595px;
+    height: 444px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 15px;
+}
+.our-services .col-2 .garden li{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.our-services .col-2 .garden a{
+text-decoration: none;
+color:#B08633;
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.our-services .col-2 .landscaping{
+    background: url("/img/landscapping.png") no-repeat center center/cover;
+    width: 595px;
+    height: 444px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-radius: 15px;
+    
+   
+}
+.our-services .col-2 .landscaping li{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+list-style: none;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.our-services .col-2 .landscaping a{
+    text-decoration: none;
+    color:#B08633;
+    font-size: 28px;
+    padding-bottom: 20px;
+padding-right: 20px;
+}
+
+
+.our-services .col-2 .landscaping .para{
+    color: white;
+    opacity: 0;
+}
+.our-services .col-2 .landscaping:hover .para{
+    color: white;
+    opacity: 1;
+}
+
+
+.our-services .col-2 .landscaping:hover{
+    color: #D8BA59;
+    opacity: 800;
+}
+
+
+
+
+/* About us section */
+
+.about-us{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-us .row{
+    margin-top: 15px;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.about-us .row .col-1{
+width: 463px;
+height: 484px;
+}
+.about-us .row .col-1 .p-heading{
+font-family: 'poppins', sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+color: #B08633;
+}
+.about-us .row .col-1 .main-p{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.about-us .row .col-1 .para{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about-us .row .col-2{
+
+}
+.about-us .row .col-2 img{
+width: 734px;
+height: 527px;
+border-radius: 10px;
+}
